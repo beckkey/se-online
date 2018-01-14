@@ -42,3 +42,4 @@ NoSQL DB `MonogoDB`
 No test for now
 * Deployment instructions
 For deploy need to run `npm run build` in seonline-ui dir. And after this link ui path to backend in `.env` config file `UI_PATH`(in se-online dir)
+After application is run, you can register a manager, that will add students in future. Go to `localhost:8081` and click register button. After success signup, you can login and start adding student in DB by clicking the add button and view list of current DB, sort or find student.
