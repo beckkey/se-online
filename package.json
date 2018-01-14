@@ -1,0 +1,28 @@
+{
+  "name": "evacall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "team-kappa",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.17.2",
+    "connect-history-api-fallback": "^1.5.0",
+    "dotenv": "^4.0.0",
+    "expo-server-sdk": "^2.3.1",
+    "express": "^4.15.3",
+    "express-fileupload": "^0.1.4",
+    "express-session": "^1.15.3",
+    "firebase-admin": "^5.0.1",
+    "mongoose": "^4.11.2",
+    "node-pre-gyp": "^0.6.38",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "tesseract.js": "^1.0.10"
+  }
+}
