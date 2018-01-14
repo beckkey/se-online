@@ -21,12 +21,12 @@ To check if you have Node.js installed, run this command in your terminal:
 
 To confirm that you have npm installed you can run this command in your terminal:
 
-`npm -v
+`npm -v`
 
 ### How do I get set up? ###
 
 * Summary of set up
-At first need clone or copy application from repo or CD.
+At first need clone or copy application from `git` or `CD`. For clone from git run `git clone ${repositoryLink}`
 Need to go at seonline and seonline-ui dir and run `npm install` command in termianl and if it's need run `npm update`
 * Configuration
 For run application locally go these steps:
