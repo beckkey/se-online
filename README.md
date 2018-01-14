@@ -34,12 +34,12 @@ For run application locally go these steps:
 - go to seonline dir and run `npm start`, and the backend will start at `3004` port.
 - go to the seonline-ui dir and run `npm run dev` (run the dev mode of UI at port `8081`)
 - and after page with application will automatically open in default browser
-* Dependencies
+* Dependencies:
 All dependencies will automatically install after `npm install`
-* Database configuration
+* Database configuration:
 NoSQL DB `MonogoDB`
-* How to run tests
+* How to run tests:
 No test for now
-* Deployment instructions
+* Deployment instructions:
 For deploy need to run `npm run build` in seonline-ui dir. And after this link ui path to backend in `.env` config file `UI_PATH`(in se-online dir)
-After application is run, you can register a manager, that will add students in future. Go to `localhost:8081` and click register button. After success signup, you can login and start adding student in DB by clicking the add button and view list of current DB, sort or find student.
+* Add user: After application is run, you can register a manager, that will add students in future. Go to `localhost:8081` and click register button. After success signup, you can login and start adding student in DB by clicking the add button and view list of current DB, sort or find student.
