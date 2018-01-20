@@ -4,7 +4,7 @@ require('dotenv').config()
 let mongoose = require('mongoose')
 let bodyParser = require('body-parser')
 
-let db = mongoose.connect('mongodb://localhost/evacall1')
+let db = mongoose.connect('mongodb://localhost/seonline')
 let history = require('connect-history-api-fallback');
 let router = require('./router')
 
